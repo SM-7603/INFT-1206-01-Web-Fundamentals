@@ -1,0 +1,7 @@
+# compressed files
+*.zip 
+*.rar
+
+# settings
+/.vscode
+
