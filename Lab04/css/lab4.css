@@ -1,0 +1,374 @@
+/*  
+<!-- 
+    - File name: lab4.css
+    - Name/Author: Shubham Mohanty
+    - Date (created): June 8th, 2023
+    - Date (last edited): June 9th, 2023
+    - Description: The combined CSS files for both lab2 & lab3
+--> 
+*/
+
+/* # PART-I: lab4.php */
+
+/* ## Lab 2 - CSS */
+
+/* Part-01: index.html */
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* M.01 - Using Flexbox: */
+
+/* Header */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid #293152; */
+    font-size: 2.5em;
+    height: 80px;
+    background-color: #ffc773;
+    color: #333;
+}
+
+#tableTitle {
+    margin-bottom: 15px;
+}
+
+/* Body */
+body {
+    font-family: "Noticia Text", Cambria, Cochin, Georgia, Times,
+        "Times New Roman", serif;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Table & Container*/
+
+table,
+tr,
+td,
+th {
+    border: 1px solid #000;
+    /* padding: 25px; */
+    border-collapse: collapse;
+    /* width: 550px; */
+    height: auto;
+    /* width: 500px; */
+    /* centering the table in the div container */
+    /* margin: auto; */
+    /* Using flex to adjust the size of the items in the table...*/
+    /* flex: 1; */
+    text-align: center;
+}
+
+/* applying padding to the cells of the table */
+
+td,
+th {
+    padding: 25px;
+    /* color: red; */
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* table header */
+th {
+    background-color: #5475af;
+    color: #f1faee;
+    font-weight: 900;
+}
+
+#tableContainer {
+    width: 640px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    min-height: 80px;
+    padding: 10px;
+    color: #333333;
+}
+
+/* Changing up the font sizes for different activities */
+
+/* Font size = 17px */
+
+#videoGames,
+#piano,
+#calisthenics,
+#creativeWriting,
+#dancing,
+#languageLearning,
+#calligraphy,
+#cooking,
+#martialArts,
+#books {
+    font-size: 17px;
+}
+
+/* Font size = 35px */
+#family,
+#anime,
+#coding,
+#animatedMovies {
+    font-size: 35px;
+}
+
+/* Font size = 50px */
+
+#sketching {
+    font-size: 50px;
+}
+
+/* Font size = 60px */
+
+#camping {
+    font-size: 60px;
+}
+
+/* Part-02: la2.html */
+#mainContainer {
+    width: 800px;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex: 2; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* applying background colors subject-wise: */
+
+.systemsDev {
+    background-color: #2d3142;
+    color: #ffffff;
+}
+
+.Java {
+    background-color: #bfc0c0;
+    color: #000000;
+}
+
+.softwareTestingPython {
+    background-color: #ef8354;
+    color: #ffffff;
+}
+
+.Job {
+    background-color: #293152;
+    color: #ffffff;
+}
+
+.webDev {
+    background-color: #4f5d75;
+    color: #ffffff;
+}
+
+.business {
+    background-color: blanchedalmond;
+    color: #000000;
+}
+
+.Job {
+    background-color: #293152;
+    color: #ffffff;
+}
+
+.maps {
+    color: #293152;
+    background-color: #ffc773;
+}
+
+.selfStudy {
+    background-color: #797983;
+    color: #f5f5f5;
+}
+
+/* links */
+a,
+a:visited {
+    color: #ef8354;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active {
+    color: #ffc773;
+}
+
+/* Lab - 03 - CSS */
+
+/* Universal Selector to get rid of the default padding & margins of every element on the HTML page. */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(41, 49, 81);
+    font-size: 1.25em;
+    height: 80px;
+    background-color: rgb(255, 199, 115);
+    color: #333;
+}
+
+/* Headings */
+
+.centeredHeadings {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.headingThree {
+    color: rgb(41, 49, 82);
+    text-shadow: 0px 1.5px rgb(239, 131, 84);
+}
+
+body {
+    /* margin: 0px;
+    padding: 0px; */
+    font-family: "Noticia Text", Cambria, Cochin, Georgia, Times,
+        "Times New Roman", serif;
+    background-color: rgb(255, 235, 205);
+    color: rgb(51, 51, 51);
+}
+
+#MainContainer {
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: justify;
+    /* padding: 0px; */
+}
+
+p {
+    text-indent: 2rem;
+}
+/* Ref: https://stackoverflow.com/questions/4287917/how-many-pixels-is-a-space-equal-to */
+
+/* Images */
+img {
+    height: 30em;
+    border: 1.5px dashed rgb(239, 131, 84);
+    margin: 15px auto;
+    display: flex;
+}
+
+/* table */
+
+thead {
+    font-size: 20px;
+    color: #293152;
+    text-shadow: 0px 1.5px rgb(239, 131, 84);
+    background-color: rgb(255, 235, 205);
+}
+
+#placeHolderTable td {
+    font-weight: normal;
+}
+
+/* table,
+th,
+tr,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-collapse: collapse;
+    width: 625px;
+    margin: 15px auto;
+    text-align: center;
+} */
+
+#lab4bMainContent {
+    text-align: justify;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+    /* flex-direction: column; */
+}
+
+/* Links */
+a,
+a:visited,
+a:active {
+    color: rgb(239, 131, 84);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 199, 115);
+    text-decoration: underline;
+}
+
+/* Code */
+code {
+    color: rgb(41, 49, 82);
+    text-shadow: 0.5px 1.5px rgb(239, 131, 84);
+    text-decoration: overline;
+}
+
+/* signature */
+#mySign {
+    font-family: "Kalam", cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    margin-top: 30px;
+    /* margin-left: -75px; */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    width: 800px;
+    margin: 10px auto;
+    font-size: 0.9em;
+}
+
+/* horizontal Nav Bar */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#horizontalNavBarMenu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 3.14rem;
+    background-color: rgb(255, 247, 194);
+    border: 2px solid #000;
+    border-top: none;
+    width: 800px;
+}
+
+#horizontalNavBarMenu li {
+    flex: 1;
+    text-align: center;
+    font-size: large;
+}

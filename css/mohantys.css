@@ -1,0 +1,183 @@
+/*
+    - File name: mohantys.css
+    - Name/Author: Shubham Mohanty
+    - Date (created): July 26th, 2023
+    - Description: INFT-1206 - Shared CSS to be used for labs after Lab9
+*/
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 235, 205);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: #ffc773;
+    color: #333;
+    border: 2px solid #000;
+    height: 125px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* footer para */
+footer p {
+    font-weight: bold;
+    margin: 0;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: lavenderblush;
+    /* padding-bottom: 15px;*/
+    padding: 15px;
+    min-width: 70%;
+}
+
+nav a {
+    color: #631f1f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #631f1f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* registration link */
+#register_link {
+    color: #ff0000;
+}
+
+main {
+    margin-top: 45px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#final_output {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    color: #631f1f;
+    margin-bottom: 15px;
+}
+
+#errorMessages {
+    color: red;
+    margin: 30px;
+    font-size: x-large;
+}
+
+footer {
+    background-color: #ffc773;
+    color: #333;
+    border: 2px solid #000;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #631f1f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* form */
+
+/* label */
+label {
+    font-weight: bold;
+}
+
+/* input */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #444;
+}
+
+/* final output */
+#final_output {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    margin-bottom: 35px;
+}
+
+#final_output p {
+    margin: 10px;
+}

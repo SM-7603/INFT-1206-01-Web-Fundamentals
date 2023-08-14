@@ -1,0 +1,138 @@
+/*
+    - File name: tt3.css
+    - Name/Author: Shubham Mohanty
+    - Date (created): August 10th, 2023
+    - Description: INFT-1206 - Shared CSS to be used for labs after Lab9
+*/
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 235, 205);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: #ffc773;
+    color: #333;
+    height: 125px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* footer para */
+footer p {
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: lavenderblush;
+    /* padding-bottom: 15px; */
+    padding: 15px;
+    min-width: 70%;
+}
+
+nav a {
+    color: #631f1f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #631f1f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 45px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#outputTable {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+}
+
+#outputTable th,
+#outputTable td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #f8f8f8;
+}
+
+#outputTable th {
+    background-color: #ffc773;
+}
+
+#outputTable tbody tr:nth-child(2n+1) {
+    background: rgb(255, 247, 194);
+}
+
+#outputTable tbody tr:nth-child(2n) {
+    background: #fff;
+}
+
+#outputTable a {
+    color: #631f1f;
+    text-decoration: none;
+}
+
+#outputTable a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* footer */
+footer {
+    background-color: #ffc773;
+    color: #333;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* custom */
+#red_color {
+    color: #ff0000;
+}
+
+#intro_para {
+    width: 50%;
+    margin-bottom: 15px;
+}

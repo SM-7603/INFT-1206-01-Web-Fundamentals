@@ -1,0 +1,95 @@
+/*
+    INFT-1206-01 - Week 2 - Continuing with tables
+    Shubham Mohanty
+    May 18th, 2023
+    Table Layout Example
+*/
+
+body {
+    margin: 0;
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tableLayout {
+    width: 100%;
+}
+
+#tableLayout tr,
+#tableLayout td {
+    margin: 0;
+    padding: 0;
+}
+
+#tableLayout thead {
+    background-color: #00000040;
+    color: #fff;
+}
+
+#MainMenu {
+    height: 30px;
+}
+
+#MainMenu div {
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#footerContainer {
+    background-color: #ddd;
+    font-size: 0.7em;
+    color: #888;
+}
+
+#footerContainer div {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Main Content */
+
+#MainContentContainer,
+#LeftSide,
+#RightSide {
+    vertical-align: top;
+}
+
+#LeftSide,
+#RightSide {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    width: 15%;
+}
+
+#LeftSide div,
+#RightSide div {
+}
+
+#MainContentContainer {
+    background-color: royalblue;
+    width: 70%;
+    /* padding: 20px; */
+}
+
+#MainContentContainer div {
+    padding: 20px;
+}
+
+#LeftSide {
+}
+
+#LeftSide div {
+}
+
+#RightSide {
+}
+
+#RightSide div {
+    background-color: gold;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 0.8em;
+    padding: 10px;
+}

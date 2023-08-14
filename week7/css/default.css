@@ -1,0 +1,40 @@
+/* 
+    INFT-1206-01 - Week 6 CSS
+    Shubham Mohanty
+    June 6th, 2023 
+*/
+
+body {
+    margin: 0;
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+header, footer {
+    background-color: silver;
+    color: #000;
+    border: 2px solid #000;
+    height: 80px;
+    width: 800px;
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+footer {
+    height: 60px;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+section {
+    width: 800px;
+    margin: 20px auto;
+}

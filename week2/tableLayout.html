@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- 
+    INFT-1206-01 - Week 2 - Continuing with tables
+    Shubham Mohanty
+    May 18th, 2023
+    Table Layout Example
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Week 2 - Table Layout Example</title>
+        <link rel="stylesheet" type="text/css" href="css/tableLayout.css" />
+    </head>
+    <body>
+        <table cellspacing="0" cellpadding="0" id="tableLayout">
+            <thead>
+                <!-- R1 -->
+                <tr>
+                    <!-- Banner Header -->
+                    <td colspan="3">
+                        <img
+                            src="images/TechProfBanner.png"
+                            alt="tech prof banner"
+                            width="100%"
+                        />
+                    </td>
+                </tr>
+                <!-- R2 -->
+                <tr>
+                    <!-- Horizontal Menu -->
+                    <td colspan="3" id="MainMenu">
+                        <div>Menu</div>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- R3 -->
+                <!-- Central Content -->
+                <tr>
+                    <!-- Vertical Menu -->
+                    <td id="LeftSide">
+                        <div>Left</div>
+                    </td>
+                    <!-- Main Content -->
+                    <td id="MainContentContainer">
+                        <div>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Quaerat officia nemo natus ab, eius blanditiis
+                            laboriosam? Cumque saepe atque reiciendis eum
+                            consequuntur voluptatibus, fuga, nisi adipisci
+                            sapiente vero eveniet! Hic delectus id esse alias,
+                            eos necessitatibus odio voluptas praesentium dicta
+                            sed quia, accusantium ab consectetur sapiente culpa,
+                            aut molestiae aspernatur?
+                        </div>
+                    </td>
+                    <!-- Advertisement, Twitter Feed, News Feed -->
+                    <td id="RightSide">
+                        <div>
+                            <h3>News Headline</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nihil inventore asperiores eaque quod earum! Inventore ex deleniti eos minima?</p>
+                        </div>
+                    </td>
+                </tr>
+                <!-- R4 -->
+                <!-- Footer -->
+                <tr id="footerContainer">
+                    <td colspan="3">
+                        <div>
+                            &copy; Copyright, All Rights Reserved 2023 - Shubham
+                            Mohanty <br />
+                            Lorem, ipsum dolor.
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

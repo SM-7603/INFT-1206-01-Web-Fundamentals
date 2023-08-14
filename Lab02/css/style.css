@@ -1,0 +1,202 @@
+/*  
+    - File name: style.css
+    - Name/Author: Shubham Mohanty
+    - Date (created): May 18th, 2023
+    - Date (last updated): May 19th, 2023 
+    - Description: INFT-1206-01 Lab2 assignment (submission) 
+        - Common CSS file for both the HTML files (part 1 & 2) of Lab2.    
+*/
+
+/* Part-01: index.html */
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* M.01 - Using Flexbox: */
+
+/* Header */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #293152;
+    font-size: 2.5em;
+    height: 80px;
+    background-color: #ffc773;
+    color: #333;
+}
+
+#tableTitle {
+    margin-bottom: 15px;
+}
+
+/* Body */
+body {
+    font-family: "Noticia Text", Cambria, Cochin, Georgia, Times,
+        "Times New Roman", serif;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Table & Container*/
+
+table,
+tr,
+td,
+th {
+    border: 1px solid #000;
+    /* padding: 25px; */
+    border-collapse: collapse;
+    /* width: 550px; */
+    height: auto;
+    /* width: 500px; */
+    /* centering the table in the div container */
+    /* margin: auto; */
+    /* Using flex to adjust the size of the items in the table...*/
+    /* flex: 1; */
+}
+
+/* applying padding to the cells of the table */
+
+td,
+th {
+    padding: 25px;
+    /* color: red; */
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* table header */
+th {
+    background-color: #5475af;
+    color: #f1faee;
+    font-weight: 900;
+}
+
+#tableContainer {
+    width: 640px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    min-height: 80px;
+    padding: 10px;
+    color: #333333;
+}
+
+/* Changing up the font sizes for different activities */
+
+/* Font size = 17px */
+
+#videoGames,
+#piano,
+#calisthenics,
+#creativeWriting,
+#dancing,
+#languageLearning,
+#calligraphy,
+#cooking,
+#martialArts,
+#books {
+    font-size: 17px;
+}
+
+/* Font size = 35px */
+#family,
+#anime,
+#coding,
+#animatedMovies {
+    font-size: 35px;
+}
+
+/* Font size = 50px */
+
+#sketching {
+    font-size: 50px;
+}
+
+/* Font size = 60px */
+
+#camping {
+    font-size: 60px;
+}
+
+/* Part-02: la2.html */
+#mainContainer {
+    width: 800px;
+    margin: 10px 0px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex: 2; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* applying background colors subject-wise: */
+
+.systemsDev {
+    background-color: #2d3142;
+    color: #ffffff;
+}
+
+.Java {
+    background-color: #bfc0c0;
+    color: #000000;
+}
+
+.softwareTestingPython {
+    background-color: #ef8354;
+    color: #ffffff;
+}
+
+.Job {
+    background-color: #293152;
+    color: #ffffff;
+}
+
+.webDev {
+    background-color: #4f5d75;
+    color: #ffffff;
+}
+
+.business {
+    background-color: blanchedalmond;
+    color: #000000;
+}
+
+.Job {
+    background-color: #293152;
+    color: #ffffff;
+}
+
+/* links */
+a,
+a:visited {
+    color: #ef8354;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active {
+    color: #ffc773;
+}

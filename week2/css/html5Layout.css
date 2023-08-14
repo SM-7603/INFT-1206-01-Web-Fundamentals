@@ -1,0 +1,115 @@
+/* 
+    INFT-1206-01 - Week 2 - Continuing with Layouts (HTML5 Layout Demo)
+    Shubham Mohanty
+    May 25th, 2023
+    Table Layout Example
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff3b0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #fff3b0;
+    color: #540b0e;
+    height: 100px;
+    display: block;
+}
+
+header h1 {
+    margin: 0px;
+    padding-top: 30px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    text-align: center;
+    background-color: #d3c052;
+}
+
+nav ul {
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 20px 5px 20px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    height: 23px;
+    border: 1px solid #540b0e;
+    margin: 0px;
+}
+
+nav li:hover {
+    background-color: #540b0e;
+}
+
+nav li a,
+nav li a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f7f7f7;
+}
+
+footer {
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #333;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    /* border: dashed 3px red; */
+    width: 100%;
+    background-color: #dcdcdc;
+    float: left;
+}
+
+article {
+    float: left;
+    background-color: #ffeb7a;
+    width: 20%;
+    margin-right: 10px;
+}
+
+aside {
+    background-color: #17a377;
+    color: #dcdcdc;
+    text-align: center;
+    font-style: italic;
+    width: 17%;
+    float: right;
+
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #540b0e;
+    border-radius: 25px;
+}
+
+section h1 {
+    margin: 10px 0px;
+}
+
+.inlineImage {
+    float: right;
+    text-align: right;
+    padding: 3px;
+    border: 1px solid #540b0e;
+}
+
+section::after {
+    clear: both;
+}

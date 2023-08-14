@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<!-- 
+    - File name: lab1.html
+    - Name/Author: Shubham Mohanty
+    - Date (created): May 10th, 2023
+    - Date (last modified): May 12th, 2023
+    - Description: INFT-1206-01 Lab1 assignment (submission) 
+        - The submission includes 3 website links: 
+            1. One that acts as the homepage of the whole course.
+            2. One that acts as the homepage of lab.
+            3. The page for lab1, which includes concepts learnt during week1 of INFT-1206 like the basic HTML structure, creating hyperlinks, uploading the files to a server, inserting images, and basic styling.
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab01</title>
+    </head>
+    <body>
+        <img
+            src="images/HalfLifeLambda_logo.svg"
+            alt="Half-Life Logo"
+            style="height: 150px"
+        >
+        <hr>
+        <!-- <a href="/">week2</a> -->
+        <h3>Newton's Second Law of Motion:</h3>
+        <p>
+            Force is equal to the rate of change of momentum. For a constant
+            mass, force equals mass times acceleration.
+        </p>
+        <h4>
+            For Constant Mass: <em>(note - F, p, v & a are all vectors.)</em>
+        </h4>
+        <!-- <code><p>F &Proportional; a</p></code> -->
+        <p><code>F = &Delta;p/&Delta;t</code></p>
+        <p><code>F = m(&Delta;v/&Delta;t)</code></p>
+        <code>F = ma</code>
+        <hr>
+        <h3>Currency Conversion section:</h3>
+        <p>I've included currencies from Asia like the INR & Yen, Eurasia - Ruble/Rouble, Digital - Bitcoin, Europe - Euro, and Sterling/Pound and compared them with respect to USD.</p>
+        <ul>
+            <li>&#8383; - Bitcoin = &dollar;26,334</li>
+            <li>&yen; - Japanese Yen = &dollar;0.0073871</li>
+            <li>&#8377; - Indian Rupee = &dollar;0.012164</li>
+            <li>&pound; - British Pound = &dollar;1.2467</li>
+            <li>&euro; - Euro = &dollar;1.0861</li>
+            <!-- <li>&dollar; - USD</li> -->
+            <li>&#8381; - Russian Rouble = &dollar;0.012916</li>
+        </ul>
+
+        <h4>Relation in a single line with respect to one USD: </h4>
+
+        <p style="font-size: 14.5px;"><code>&dollar;1 =  &#8383;0.000037983 = &yen;135.44 = &#8377;82.211 = &pound;0.80224 = &euro;0.92085 = &#8381;77.432</code></p>
+
+        <hr>
+        <h3>Code Snippet:</h3>
+
+        <h4>Description: </h4>
+
+        <p>This is a classic programming problem that was asked in a lot of interviews a few years ago, The program asks the user for a +ve number as an input, and then prints the numbers from 1 to the entered number. But for multiples of three it prints "Fizz" instead of the number and for the multiples of five it prints "Buzz". For numbers which are multiples of both three and five print it prints "FizzBuzz".</p>
+
+        <code>
+            user_input = input("Please enter the value of +ve number: \n")<br>
+
+            try: <br>
+            &numsp;&numsp; user_input = int(user_input) <br>
+            except: <br>
+            &numsp;&numsp; print("Bad Number") <br>
+            &numsp;&numsp; exit() <br>
+
+            for number in range(1, user_input + 1): <br>
+            &numsp;&numsp; if number % 3 == 0 and number % 5 == 0: <br>
+            &numsp;&numsp; print("FizzBuzz") <br>
+            &numsp;&numsp; elif number % 3 == 0: <br>
+            &numsp;&numsp; print("Buzz") <br>
+            &numsp;&numsp; elif number % 5 == 0: <br>
+            &numsp;&numsp; print("Fizz") <br>
+            &numsp;&numsp; else: <br>
+            &numsp;&numsp; print(number) <br>
+        </code>
+        <hr>
+        <h3>Chemical Equation (Thermite reaction):</h3>
+
+        <h4>Description:</h4>
+
+        <p>The process of igniting Aluminum and Ferric oxide is called thermite reaction. This is an exothermic reaction. Iron obtained in this process is in molten state. Thermite reaction is utilized for the welding of rails (joining metals) called thermite welding.</p>
+        <p>
+            <code>
+                Fe<sub>2</sub>O<sub>3</sub>(s) + Al(s) &longrightarrow; Fe(s) +
+                Al<sub>2</sub>O<sub>3</sub>(s) + &Delta;
+            </code>
+        </p>
+        <hr>
+        <h3>An Ordered List:</h3>
+        <h4>My Morning Routine</h4>
+        <p>A section of my morning routine: </p>
+        <ol>
+            <li>Wake up</li>
+            <li>Do some light stretching</li>
+            <li>Do a few sets of pushups</li>
+            <li>Brush</li>
+            <li>Shower</li>
+            <li>Cook something for breakfast</li>
+            <li>Eat Breakfast</li>
+            <li>Make a todo list for the day</li>
+            <li>Leave for classes</li>
+        </ol>
+        <hr>
+        <h3>An Unordered List:</h3>
+        <h4>Chicken Biryani ingredients (4-6 servings)</h4>
+        <p>The list below includes the necessary ingredients to make Chicken Biryani for 4-6 people:</p>
+        <ul>
+            <li>1 kg chicken (bone-in, skinless)</li>
+            <li>3 cups Basmati rice (soaked in water for &half; hour)</li>
+            <li>3 large onions, sliced thinly</li>
+            <li>2 medium tomatoes, chopped</li>
+            <li>1 cup plain yogurt</li>
+            <li>6-8 cloves garlic, minced</li>
+            <li>2 inch ginger, grated</li>
+            <li>2-3 green chilies, chopped</li>
+            <li>3 tablespoons biryani masala</li>
+            <li>1 teaspoon garam masala</li>
+            <li>1 teaspoon turmeric powder</li>
+            <li>1 teaspoon cumin seeds</li>
+            <li>2-3 bay leaves</li>
+            <li>2-3 cinnamon sticks</li>
+            <li>5-6 cloves</li>
+            <li>4-5 cardamom pods</li>
+            <li>A pinch of saffron, soaked in 2 tablespoons milk</li>
+            <li>&half; cup oil or ghee</li>
+            <li>Salt, to taste</li>
+        </ul>
+        <hr>
+        <footer>
+            <h3>The xhtml validation image:</h3>
+            <img 
+                src="images/xhtml_validation_lab1.png" 
+                alt="xhtml validation image for lab1" 
+                style="width: 1500px;"
+            >
+            <img 
+                src="images/Validation_xhtml.svg" 
+                alt="w3c validation image"
+                style="width: 150px;"
+            >
+            <div style="text-align: center">
+                <p>
+                    <strong>Name:</strong> Shubham Mohanty |
+                    <strong>ID:</strong> 100898560 |
+                    <strong>Class:</strong> INFT-1206-01
+                </p>
+                <p>
+                    <a href="../index.html">Home</a>
+                    |
+                    <a href="./index.html">Lab-1 Homepage</a>
+                    |
+                    <a href="./lab1.html">Lab-1</a>
+                </p>
+            </div>
+        </footer>
+
+    </body>
+</html>
+
+<!-- 
+- References: 
+    - Logo (HalfLife) = https://commons.wikimedia.org/wiki/File:Half-Life_lambda_logo.svg 
+    - W3C XHTML Validation Icon = https://www.w3.org/2000/09/vsimg/transparency-test
+-->

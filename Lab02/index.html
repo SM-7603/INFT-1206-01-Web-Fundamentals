@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- 
+    - File name: lab2.html
+    - Name/Author: Shubham Mohanty
+    - Date (created): May 18th, 2023
+    - Date (last updated): May 19th, 2023 
+    - Description: INFT-1206-01 Lab2 assignment (submission) 
+        - Part 1 of Lab2, this contains the "favorite things table"
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab-02 - Homepage</title>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Font -->
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap");
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div>INFT-1206 - Lab2 - Part 1</div>
+        </div>
+        <div id="tableContainer">
+            <table>
+                <thead>
+                    <!-- Header Row -->
+                    
+                    <tr>
+                        <th colspan="2" id="family">
+                            Spending time with my family
+                        </th>
+                        <th id="books">Fiction books</th>
+                        <th id="videoGames">Video games</th>
+                    </tr>
+                </thead>
+                <!-- Regular rows -->
+                <tbody>
+                    <tr>
+                        <td id="piano">Playing the piano</td>
+                        <td rowspan="2" id="anime">Anime</td>
+                        <td rowspan="2" id="coding">Coding</td>
+                        <td id="calisthenics">Calisthenics</td>
+                    </tr>
+                    <tr>
+                        <td id="creativeWriting">Creative Writing</td>
+                        <td id="dancing">Dancing</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="sketching">Sketching</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="3" id="camping">Camping</td>
+                        <td id="languageLearning">Language Learning</td>
+                        <td rowspan="2" id="animatedMovies">Animated Movies</td>
+                    </tr>
+                    <tr>
+                        <td id="calligraphy">Calligraphy</td>
+                    </tr>
+                    <tr>
+                        <td id="cooking">Cooking</td>
+                        <td id="martialArts">Martial Arts</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="footer">
+            <hr>
+            <br>
+            <div>
+                &copy; Copyright, All Rights Reserved 2023 - Shubham Mohanty
+            </div>
+            <br>
+            <a href="../index.html">Personal Homepage</a>
+            |
+            <a href="./index.html">Lab2 (part 1)</a>
+            |
+            <a href="./lab2.html">Lab2 (part 2)</a>
+        </div>
+    </body>
+</html>

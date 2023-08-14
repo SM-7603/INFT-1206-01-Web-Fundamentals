@@ -1,0 +1,81 @@
+/* 
+    INFT-1206-01 - Week 3 - demo (CSS File)
+    Shubham Mohanty
+    May 11th, 2023
+*/
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    font-family: 'Noticia Text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    background-color: bisque;
+    padding-left: 25px;
+}
+
+#FirstHeading {
+    margin-bottom: 0px;
+}
+
+p {
+    /* 
+    These follow the clockwise direction
+    Top, Right, Bottom, Left 
+    */
+    margin: 10px 20px 10px 25px;
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+.secondParagraph {
+    margin-left: 40px;
+}
+
+#NewsArticle {
+    background-color: #000;
+    border: 3px solid bisque;
+    color: #ccc;
+    width: 300px;
+    margin: 40px auto 40px auto;
+    border-radius: 20px;
+    /* text-align: center; */
+    padding: 5px;
+    font-family: Cambria;
+}
+
+#NewsArticle h3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#NewsArticle:hover {
+    background-color: #fc0;
+    color: #000;
+    border: 3px solid #000;
+    cursor: pointer;
+}
+
+.BottomBorder {
+    border-bottom: 2px solid #000;
+}
+
+span {
+    background-color: beige;
+}
+
+/* HyperLinks */
+
+a,
+a:visited {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}

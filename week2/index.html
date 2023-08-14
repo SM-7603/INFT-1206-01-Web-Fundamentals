@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- 
+    INFT-1206-01 - Week 2 - Part A - Demonstration
+    Shubham Mohanty
+    May 9th, 2023
+    Intro to Tables
+-->
+
+<html lang="en">
+    <head>
+        <title>Week 2 - Part A - Demo</title>
+    </head>
+    <body>
+        <h1>Week 2 Demonstration</h1>
+        <h1>Tables</h1>
+
+        <table border="1" cellspacing="0" cellpadding="10">
+            <caption style="background-color: beige">
+                Caption here
+            </caption>
+            <thead style="background-color: rgb(211, 255, 213)">
+                <tr>
+                    <th>Col1</th>
+                    <th>Col2</th>
+                    <th>Col3</th>
+                    <th>Col4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1,1</td>
+                    <td>1,2</td>
+                    <td>1,3</td>
+                    <td>1,4</td>
+                </tr>
+                <tr>
+                    <td>2,1</td>
+                    <td>2,2</td>
+                    <td>2,3</td>
+                    <td>2,4</td>
+                </tr>
+                <tr>
+                    <td>3,1</td>
+                    <td>3,2</td>
+                    <td>3,3</td>
+                    <td>3,4</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Student Grade Table</h2>
+
+        <table border="1" cellspacing="0" cellpadding="10">
+            <caption>
+                INFT-1206-01 s2023 Student Grades
+            </caption>
+            <thead>
+                <tr style="background-color: rgb(255, 238, 144)">
+                    <th rowspan="2">Student</th>
+                    <th colspan="10">Labs</th>
+                    <th rowspan="2">Lab Total</th>
+                    <th colspan="3">Test</th>
+                    <th rowspan="2">Final Mark</th>
+                </tr>
+                <tr>
+                    <th>L1</th>
+                    <th>L2</th>
+                    <th>L3</th>
+                    <th>L4</th>
+                    <th>L5</th>
+                    <th>L6</th>
+                    <th>L7</th>
+                    <th>L8</th>
+                    <th>L9</th>
+                    <th>L10</th>
+                    <th>Test 1</th>
+                    <th>Test 2</th>
+                    <th>Test 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shubham</td>
+                    <td>3</td>
+                    <td>3.25</td>
+                    <td>0</td>
+                    <td>2.4</td>
+                    <td>2.9</td>
+                    <td>3.5</td>
+                    <td>3.5</td>
+                    <td>2</td>
+                    <td>1.75</td>
+                    <td>3.25</td>
+                    <td>25.55</td>
+                    <td>20</td>
+                    <td>18</td>
+                    <td>21</td>
+                    <td>84.55</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Demo Page Layout</h2>
+
+        <table border="1" cellspacing="0" cellpadding="10">
+            <thead>
+                <tr>
+                    <th colspan="3">Banner</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Menu</td>
+                    <td>Content</td>
+                    <td>News Feed</td>
+                </tr>
+            </tbody>
+            <tfoot style="background-color: aquamarine">
+                <tr>
+                    <td colspan="3" style="text-align: center">Footer</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

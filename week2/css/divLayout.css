@@ -1,0 +1,75 @@
+/* 
+    INFT-1206-01 - Week 2 - Continuing with Layouts (Div)
+    Shubham Mohanty
+    May 23th, 2023
+    Table Layout Example
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #ddd;
+}
+
+#mainContainer {
+    width: 800px;
+    background-color: #222;
+    margin: 0 auto;
+    min-height: 400px;
+}
+#headContainer {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 70px;
+    padding-top: 20px;
+}
+
+#headContainer p {
+    margin: 0;
+    padding: 0;
+}
+
+#contentContainer {
+    min-height: 280px;
+    padding: 0;
+    margin: 0;
+}
+
+#LeftSide,
+#RightSide {
+    width: 150px;
+    margin: 0;
+    background-color: red;
+    height: 250px;
+}
+
+#LeftSide {
+    float: left;
+}
+#MainContent {
+    width: 480px;
+    margin: 0;
+    background-color: blue;
+    float: left;
+    padding: 0 10px;
+    height: 250px;
+}
+#RightSide {
+    float: left;
+}
+#footerContainer {
+    clear: both;
+    margin: 0 auto;
+    font-size: 0.8em;
+    color: #666;
+    text-align: center;
+    /* remember, there are 2 margin styles that I've applied here, remember this: the latest one will overwrite the old one's, thus in this case, 20px will be applied to the margin top, the rest remain the same as - margin: 0 auto; is still active. */
+    margin-top: 20px;
+}

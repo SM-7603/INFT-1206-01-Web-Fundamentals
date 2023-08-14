@@ -1,0 +1,109 @@
+/*  
+    - File name: test2.css
+    - Name/Author: Shubham Mohanty
+    - Date (created): July 6th, 2023
+    - Description: CSS file for test2
+*/
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #999;
+    border: 2px solid #000;
+    height: 80px;
+    width: 763px;
+    /* new property */
+    /* min-width: 800px; */
+    text-align: center;
+    margin: 0px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: stretch;
+}
+
+/* footer {
+    height: 60px;
+} */
+
+header h1 {
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+/* section */
+section {
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Links */
+a,
+a:visited,
+a:active {
+    color: #f7f7f7;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f7f7f7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* aligning the form */
+/* form {
+    text-align: center;
+} */
+
+/* centering the headings */
+/* #centeredSectionHeading {
+    text-align: center;
+} */
+
+/* aligning the section */
+main {
+    margin-top: 45px;
+    text-align: center;
+}
+
+/* table */
+#tableContainer {
+    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+/* error messages */
+#errorMessages {
+    color: red;
+}

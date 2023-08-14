@@ -1,0 +1,131 @@
+/* 
+    - File name: stylesheet.css
+    - Name/Author: Shubham Mohanty
+    - Date (created): May 26th, 2023
+    - Description: INFT-1206-01 Lab3 assignment (submission) 
+        - The CSS file for the blog-post (Lab-03)
+*/
+
+/* Universal Selector to get rid of the default padding & margins of every element on the HTML page. */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(41, 49, 81);
+    font-size: 1.25em;
+    height: 80px;
+    background-color: rgb(255, 199, 115);
+    color: #333;
+}
+
+/* Headings */
+
+.centeredHeadings {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.headingThree {
+    color: rgb(41, 49, 82);
+    text-shadow: 0px 1.5px rgb(239, 131, 84);
+}
+
+body {
+    /* margin: 0px;
+    padding: 0px; */
+    font-family: "Noticia Text", Cambria, Cochin, Georgia, Times,
+        "Times New Roman", serif;
+    background-color: rgb(255, 235, 205);
+    color: rgb(51, 51, 51);
+}
+
+#MainContainer {
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: justify;
+    /* padding: 0px; */
+}
+
+p {
+    text-indent: 2rem;
+}
+/* Ref: https://stackoverflow.com/questions/4287917/how-many-pixels-is-a-space-equal-to */
+
+/* Images */
+img {
+    height: 30em;
+    border: 1.5px dashed rgb(239, 131, 84);
+    margin: 15px auto;
+    display: flex;
+}
+
+/* table */
+
+thead {
+    font-size: 20px;
+    color: #293152;
+    text-shadow: 0px 1.5px rgb(239, 131, 84);
+    background-color: rgb(255, 235, 205);
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-collapse: collapse;
+    width: 625px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+}
+
+/* Links */
+a,
+a:visited,
+a:active {
+    color: rgb(239, 131, 84);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 199, 115);
+    text-decoration: underline;
+}
+
+/* Code */
+code {
+    color: rgb(41, 49, 82);
+    text-shadow: 0.5px 1.5px rgb(239, 131, 84);
+    text-decoration: overline;
+}
+
+/* signature */
+#mySign {
+    font-family: "Kalam", cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    width: 800px;
+    margin: 10px auto;
+    font-size: 0.9em;
+}

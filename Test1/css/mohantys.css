@@ -1,0 +1,116 @@
+/*  
+    - File name: mohantys.css
+    - Name/Author: Shubham Mohanty
+    - Date (created): June 1st, 2023
+    - Description: INFT1206 Term Test 1 - Practical (CSS file)
+*/
+
+/* General/Universal */
+body {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    background-color: #000;
+}
+
+/* main */
+main {
+    flex: 3;
+    margin-right: 135px;
+    margin-top: -21px;
+}
+
+/* Main Container */
+#mainContainer {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #444;
+}
+
+/* Main content */
+#mainContent {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Header */
+
+header {
+    background-color: #1d2d5c;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.mainHeading {
+    margin: 0px;
+}
+
+/* Navigation */
+
+nav {
+    flex: 1;
+}
+
+/* Method - 01 */
+/* nav {
+    float: left;
+    margin-right: 20px;
+} */
+
+#tableNavBar,
+#tableNavBar td,
+#tableNavBar tr {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    /* maybe change up the table navigation width. */
+    width: 150px;
+    padding-left: 15px;
+    background-color: #134a8e;
+    color: #fff;
+}
+
+#tableNavBar td:hover {
+    background-color: red;
+}
+
+#tableNavBar #navNoPadding {
+    padding-left: 0px;
+}
+
+/* Main Content */
+
+#tableStartingLineup,
+#tableStartingLineup td,
+#tableStartingLineup th,
+#tableStartingLineup tr {
+    border: 1px solid black;
+    /* According to the styling, the border wasn't collapsed */
+    /* border-collapse: collapse; */
+    text-align: center;
+    background-color: #fff;
+    color: #1d2d5c;
+}
+
+#tableStartingLineup th {
+    background-color: #1d2d5c;
+    color: #fff;
+}
+
+caption {
+    color: #fff;
+}
+
+/* Images */
+#blueJaysLogo {
+    flex: 1;
+    margin-top: 45px;
+}
+
+/* Footer */
+footer {
+    width: 800px;
+    text-align: center;
+    margin: 15px auto;
+    margin-bottom: 50px;
+}

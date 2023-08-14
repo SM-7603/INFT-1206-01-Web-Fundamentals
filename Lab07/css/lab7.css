@@ -1,0 +1,148 @@
+/*  
+    - File name: lab7.css
+    - Name/Author: Shubham Mohanty
+    - Date (created): July 14th, 2023
+    - Description: CSS file for lab7
+*/
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    margin: 0;
+    background-color: rgb(255, 235, 205);;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+header,
+footer {
+    background-color: #ffc773;
+    color: #333;
+    border: 2px solid #000;
+    height: 80px;
+    width: 80%;
+    /* new property */
+    min-width: 800px;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer {
+    height: 60px;
+} */
+
+header h1 {
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+/* section */
+section {
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Links */
+a,
+a:visited,
+a:active {
+    color: #631f1f;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #631f1f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* aligning the form */
+/* form {
+    text-align: center;
+} */
+
+/* centering the headings */
+/* #centeredSectionHeading {
+    text-align: center;
+} */
+
+/* aligning the section */
+main {
+    margin-top: 45px;
+    text-align: center;
+}
+
+/* table */
+#tableContainer {
+    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+/* table */
+/* alternate colors: */
+tbody tr:nth-child(2n + 1) {
+    background: #111;
+}
+
+tbody tr:nth-child(2n) {
+    background: #333;
+}
+
+/* error messages */
+#errorMessages {
+    color: red;
+}
+
+/* new styling */
+
+body {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+    margin: 35px auto;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td {
+    color: #000;
+}
+
+tbody tr:nth-child(2n+1) {
+    background: rgb(255, 247, 194);
+}
+
+tbody tr:nth-child(2n) {
+    background: #fff;
+}
